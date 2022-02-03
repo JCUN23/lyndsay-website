@@ -1,0 +1,319 @@
+.body {
+    height: 2000px;
+    font-family: 'Inter';
+}
+
+.header {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    font-family: 'Cookie', cursive;
+    font-size: 36px;
+    z-index: 99;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile {
+    border-radius: 120px;
+    margin-bottom: -30px;
+    border: 1px solid white;
+}
+
+center {
+    position: relative;
+    top: 5px;
+}
+
+.linkedin {
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.linkedin:hover {
+    cursor: pointer;
+    width: 32px;
+    transition: all .25s ease-out;
+}
+
+.gmail {
+    width: 30px;
+    position: absolute;
+    top: 15px;
+    right: 65px;
+}
+
+.gmail:hover {
+    cursor: pointer;
+    width: 32px;
+    transition: all .25s ease-out;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+.video-text {
+    margin-top: 200px;
+    color: white;
+    font-family: 'Inter';
+}
+
+.main-text {
+    font-size: calc(20px + 3vw);
+    color: white;
+    font-family: 'Inter';
+    margin-bottom: -1px;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 5px #fff,
+        0 0 1px #fff,
+        0 0 1px rgb(255, 255, 255);
+}
+
+#spin {
+    font-size: calc(20px + 2vw);
+    font-family: 'Cookie', cursive;
+  }
+  #spin:after {
+    content:"";
+    animation: spin 10s linear infinite;
+}
+
+.content {
+    position: absolute;
+    left: 0;
+    background: white;
+    height: 4250px;
+    margin-top: 500px;
+}
+
+.headshot {
+    width: calc(30px + 30vw);
+    position: absolute;
+    top: -75px;
+    right: 5vw;
+    z-index: 99;
+}
+
+.intros {
+    position: relative;
+    top: 30px;
+    left: calc(20px + 3vw);
+    font-family: 'Inter';
+    width: 55%;
+    font-size: calc(10px + 1vw);
+}
+
+.experience {
+    position: absolute;
+    left:  calc(20px + 4vw);
+    margin-top: 150px;
+    font-family: 'Inter';
+}
+
+.exp-title {
+    font-size: calc(15px + 1vw);
+    border-bottom: 1px solid gray;
+    width: 50%;
+}
+
+.exps {
+    position: relative;
+    left: -40px;
+    list-style-type: none;
+    width: 50%;
+}
+
+.exp {
+    font-size: calc(10px + 1vw);
+    border-bottom: 1px solid gray;
+    line-height: 12.55px;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.date {
+    position: relative;
+    margin-left: 70%;
+    margin-top: -75px;
+    margin-bottom: 50px;
+    font-size: calc(5px + 1vw);
+}
+
+.desc {
+    font-size: calc(5px + 1vw);
+    line-height: 30px;
+}
+
+.exp-img {
+    width: calc(100px + 30vw);
+    position: absolute;
+    right: 5vw;
+    top: 925px;
+}
+
+.education {
+    position: absolute;
+    left: 50%;
+    margin-top: 1400px;
+    font-family: 'Inter';
+}
+
+.edu-title {
+    font-size: calc(15px + 1vw);
+    border-bottom: 1px solid gray;
+    width: 80%;
+}
+.edus {
+    position: relative;
+    left: -40px;
+    list-style-type: none;
+    width: 80%;
+}
+
+.gpa {
+    position: relative;
+    margin-left: 70%;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    font-size: calc(5px + 1vw);
+}
+
+.edu-img {
+    width: calc(100px + 30vw);
+    position: absolute;
+    left: 5vw;
+    top: 2000px;
+    height: 600px;
+}
+
+
+.leadership {
+    position: absolute;
+    left:  calc(30px + 12vw);
+    margin-top: 2150px;
+    font-family: 'Inter';
+}
+
+.led-title {
+    font-size: calc(15px + 1vw);
+    width: 80%;
+}
+
+.led-img {
+    width: calc(100px + 30vw);
+    position: absolute;
+    right: 5vw;
+    top: 2900px;
+    height: 500px;
+}
+
+.outros {
+    display: flex;
+    flex-direction: horizontal;
+    position: relative;
+    top: 3100px;
+    width: 60%;
+    font-family: 'Inter';
+    font-size: calc(5px + 1vw);
+}
+
+.bottom {
+    position: relative;
+    top: 3200px;
+    font-family: 'Inter';
+    font-size: calc(5px + 1vw);
+}
+
+
+.purple1 {
+    position: absolute;
+    height: 300px;
+    width: 10%;
+    opacity: 55%;
+    left: 0;
+}
+.purple2 {
+    position: absolute;
+    right: 0;
+    height: 700px;
+    width: 10%;
+    z-index: 0;
+}
+
+.yellow1 {
+    position: absolute;
+    left: 0;
+    opacity: 55%;
+    top: 775px;
+    height: 800px;
+    width: 7.5%;
+}
+.yellow2 {
+    position: absolute;
+    right: 0;
+    top: 900px;
+    height: 900px;
+    width: 20%;
+}
+.green1 {
+    position: absolute;
+    left: 0;
+    top: 1900px;
+    height: 800px;
+    width: 21%;
+}
+.green2 {
+    position: absolute;
+    right: 0;
+    opacity: 55%;
+    top: 2000px;
+    height: 700px;
+    width: 7.5%;
+}
+.blue1 {
+    position: absolute;
+    left: 0;
+    top: 2800px;
+    height: 800px;
+    width: 8%;
+    opacity: 55%;
+}
+.blue2 {
+    position: absolute;
+    right: 0;
+    top: 2800px;
+    height: 700px;
+    width: 7.5%;
+}
+
+
+
+@keyframes spin {
+0% { content:"Student"; }
+20% { content:"Leader"; }
+40% { content:"Intern"; }
+60% { content:"Accountant"; }
+100% { content:"Accountant"; }
+
+}
